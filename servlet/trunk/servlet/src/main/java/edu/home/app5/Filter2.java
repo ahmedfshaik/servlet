@@ -29,7 +29,7 @@ public class Filter2 implements Filter{
 		} else {
 			PrintWriter writer = response.getWriter();
 			writer.println("This application only for hyd people!");
-			request.getRequestDispatcher("Form.html").include(request, response);
+			request.getRequestDispatcher("form.html").include(request, response);
 		}
 		
 		
