@@ -27,7 +27,7 @@ public class Filter1 implements javax.servlet.Filter {
 		} else {
 			PrintWriter writer = response.getWriter();
 			writer.println("Your not eligible for marriage, your age is below 20 years");
-			request.getRequestDispatcher("Form.html").include(request, response);
+			request.getRequestDispatcher("form.html").include(request, response);
 		}
 	}
 
