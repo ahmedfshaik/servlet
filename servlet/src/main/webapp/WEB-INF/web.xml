@@ -118,6 +118,42 @@
 		<load-on-startup>14</load-on-startup>
 	</servlet>
 	
+	<servlet>
+		<servlet-name>servlet15</servlet-name>
+		<servlet-class>edu.home.app8.CookieServlet1</servlet-class>
+		<load-on-startup>15</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet16</servlet-name>
+		<servlet-class>edu.home.app8.CookieServlet2</servlet-class>
+		<load-on-startup>16</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet17</servlet-name>
+		<servlet-class>edu.home.app8.CookieServlet3</servlet-class>
+		<load-on-startup>17</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet18</servlet-name>
+		<servlet-class>edu.home.app9.HiddenServlet1</servlet-class>
+		<load-on-startup>18</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet19</servlet-name>
+		<servlet-class>edu.home.app9.HiddenServlet2</servlet-class>
+		<load-on-startup>19</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet20</servlet-name>
+		<servlet-class>edu.home.app9.HiddenServlet3</servlet-class>
+		<load-on-startup>20</load-on-startup>
+	</servlet>
+	
 	<servlet-mapping>
 		<servlet-name>servlet1</servlet-name>
 		<url-pattern>/app1</url-pattern>
@@ -186,6 +222,36 @@
 	<servlet-mapping>
 		<servlet-name>servlet14</servlet-name>
 		<url-pattern>/urlservlet3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet15</servlet-name>
+		<url-pattern>/cookieservlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet16</servlet-name>
+		<url-pattern>/cookieservlet2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet17</servlet-name>
+		<url-pattern>/cookieservlet3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet18</servlet-name>
+		<url-pattern>/hiddenservlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet19</servlet-name>
+		<url-pattern>/hiddenservlet2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet20</servlet-name>
+		<url-pattern>/hiddenservlet3</url-pattern>
 	</servlet-mapping>
 
 </web-app>
