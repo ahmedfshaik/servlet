@@ -100,7 +100,23 @@
 		<load-on-startup>11</load-on-startup>
 	</servlet>
 	
+	<servlet>
+		<servlet-name>servlet12</servlet-name>
+		<servlet-class>edu.home.app7.UrlServlet1</servlet-class>
+		<load-on-startup>12</load-on-startup>
+	</servlet>
 	
+	<servlet>
+		<servlet-name>servlet13</servlet-name>
+		<servlet-class>edu.home.app7.UrlServlet2</servlet-class>
+		<load-on-startup>13</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>servlet14</servlet-name>
+		<servlet-class>edu.home.app7.UrlServlet3</servlet-class>
+		<load-on-startup>14</load-on-startup>
+	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>servlet1</servlet-name>
@@ -155,6 +171,21 @@
 	<servlet-mapping>
 		<servlet-name>servlet11</servlet-name>
 		<url-pattern>/sessionservlet3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet12</servlet-name>
+		<url-pattern>/urlservlet1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet13</servlet-name>
+		<url-pattern>/urlservlet2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>servlet14</servlet-name>
+		<url-pattern>/urlservlet3</url-pattern>
 	</servlet-mapping>
 
 </web-app>
